@@ -9,6 +9,8 @@ const fileApi = await genCombine(
 );
 
 export class Info {
+  name = "Motion";
+
   async info() {
     let file = await fileApi.newestFile(config.Motion.pwd);
     return {
