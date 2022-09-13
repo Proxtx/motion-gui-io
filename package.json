@@ -1,0 +1,24 @@
+{
+  "name": "motion-gui-io",
+  "version": "1.0.0",
+  "description": "A information-overflow widget for motion-gui",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Proxtx/motion-gui-io.git"
+  },
+  "author": "Proxtx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Proxtx/motion-gui-io/issues"
+  },
+  "homepage": "https://github.com/Proxtx/motion-gui-io#readme",
+  "dependencies": {
+    "@proxtx/combine-rest": "^1.0.4",
+    "@proxtx/config": "^1.0.2"
+  }
+}
