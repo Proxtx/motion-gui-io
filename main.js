@@ -10,7 +10,7 @@ const fileApi = await genCombine(
 
 export class Info {
   async info() {
-    let file = await fileApi.nextIndexFile(config.Motion.pwd);
+    let file = await fileApi.newestFile(config.Motion.pwd);
     return {
       element: "title-box-io",
       title: "Latest Video",
